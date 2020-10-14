@@ -1,4 +1,5 @@
-package com.pa;
+import com.pa.Group;
+import com.pa.Person;
 
 public class Lab0Main {
     public static void main(String[] args){
@@ -16,7 +17,9 @@ public class Lab0Main {
         g1.deleteMember(p3);
 
         System.out.println("\n" + g1.toString());
-
+        Person p4 = new Person(4, "aaaaaaaa");
+        g1.addMember(p4);
+        System.out.println("\n" + g1.toString());
     }
 
 }
