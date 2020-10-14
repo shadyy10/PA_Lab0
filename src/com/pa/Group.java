@@ -9,8 +9,6 @@ public class Group {
     public Group(Person chief) {
         this.chief = chief;
         members = new HashSet<>();
-
-
     }
 
     public void deleteMember(Person member) {
